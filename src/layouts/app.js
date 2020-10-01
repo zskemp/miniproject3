@@ -56,6 +56,10 @@ export default function Admin({ ...rest }) {
       setMobileOpen(false);
     }
   };
+  
+  console.log("production testing lol");
+  console.log(client.patient);
+  console.log(window.client.patient);.
 
   // initialize and destroy the PerfectScrollbar plugin
   React.useEffect(() => {

@@ -31,7 +31,7 @@ const hist = createBrowserHistory();
 
 SMART.init({
   iss:
-      "https://launch.smarthealthit.org/v/r4/fhir",
+      "https://r4.smarthealthit.org",
   redirectUri: "test.html",
   clientId: "0ab9e729-2954-4437-93ee-145ffd7180e7",
   scope: "patient/Patient.read patient/Observation.read launch online_access openid profile fhirUser",

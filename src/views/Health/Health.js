@@ -183,6 +183,10 @@ export default function Notifications() {
   // My LOGIC
   FHIR.oauth2.ready().then(function(client) {
 
+    console.log("health client");
+    console.log(client);
+    console.log(client.patient);
+
     // CREATE THING (SKIP OVER)
     function build_create_json(target, value) {
       var data;

@@ -43,6 +43,10 @@ SMART.init({
         // Poor programming way to set global client
         window.client = client;
 
+        console.log("index client");
+        console.log(client);
+        console.log(client.patient);
+
         ReactDOM.render(
           <Router history={hist}>
             <Switch>

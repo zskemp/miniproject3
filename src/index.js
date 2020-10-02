@@ -45,7 +45,7 @@ SMART.init({
 
         console.log("index client");
         console.log(client);
-        console.log(client.patient);
+        console.log(client.patient.id);
 
         ReactDOM.render(
           <Router history={hist}>

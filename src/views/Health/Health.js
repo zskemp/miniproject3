@@ -185,7 +185,7 @@ export default function Notifications() {
 
     console.log("health client");
     console.log(client);
-    console.log(client.patient);
+    console.log(client.patient.id);
 
     // CREATE THING (SKIP OVER)
     function build_create_json(target, value) {
